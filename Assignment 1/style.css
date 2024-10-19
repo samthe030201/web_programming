@@ -1,0 +1,88 @@
+
+body {
+    font-family: sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 2;
+    padding: 5;
+}
+
+
+header {
+    background-color: teal;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+#profile {
+    text-align: center;
+    margin-top: 20px;
+    backdrop-filter: blur;
+}
+
+#profile_pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+
+#about {
+    margin: 20px;
+}
+
+ul {
+    list-style-type: square;
+}
+
+
+#bucket-list {
+    margin: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px;
+    
+    
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+
+}
+
+th {
+    background-color: teal;
+    color: white;
+}
+
+
+#media {
+    margin: 20px;
+    border: #ddd;
+}
+
+video, audio,iframe {
+    display: block;
+    margin: 10px auto;
+}
+
+
+button {
+    background-color: teal;
+    color: white;
+    padding: 30px 60px;
+    border: none;
+    cursor: pointer;
+    align-items: center;
+}
+
+button:hover {
+    background-color: green;
+}

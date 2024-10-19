@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Sam Peter">
+    <meta name="description" content="My Personal Web-Page">
+    <title>About Sam Peter</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js"></script> 
+    
+</head>
+
+<body>
+    <header>
+        <h1>Sam Peter</h1>
+    </header>
+
+    
+    <div id="profile">
+        <h2>Profile</h2>
+        <a href="https://www.instagram.com/samnotsoprivate" target="_blank" onmouseover="mouse_on_picture()" onmouseout="mouse_not_on_picture()">
+        <img src="pfp.jpg" alt="Sam Peter" id="profile_pic">
+        </a>
+    </div>
+
+    
+    <div id="about">
+        <h2>About Me</h2>
+        <p>I am a passionate individual with the following strengths and weaknesses:</p>
+        <ul>
+            <li>Strength: Hardworking</li>
+            <li>Strength: Quick Learner</li>
+            <li>Weakness: Overthinker</li>
+            <li>Weakness: Perfectionism</li>
+        </ul>
+    </div>
+
+    
+    <div id="bucket_list">
+        <h2>My Bucket List</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Serial Number</th>
+                    <th>Item</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Eat Ramen</td>
+                    <td>Completed</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Visit Norway</td>
+                    <td>Not Completed</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Run a Marathon</td>
+                    <td>Completed</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Learn to play guitar</td>
+                    <td>Not Completed</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Fly a Commercial Aircraft</td>
+                    <td>Not Completed</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    
+    <div id="media">
+        <h2>Media Favourites</h2>
+        <h3>Favourite Video:</h3>
+        <video controls width="480">
+        <source src="5sos.mp4" type="video/mp4">
+        Error Loading Video File :(
+        </video>
+
+        <h3>Favourite YouTube Video:</h3>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/3Vo0KbqRB5k?si=qhHN12xL3OgMJH3K" title="YouTube video player" 
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+        </iframe>  
+
+        <h3>Favourite Audio:</h3>
+        <audio controls>       
+        <source src="aasa kooda.mp3" type="audio/mpeg">
+            Error Loading Audio File :(
+        </audio>
+    </div>
+
+    
+    <div id="Button">
+        <button id="click_button" onclick="button_click()">Click Me</button>
+    </div>
+
+    
+</body>
+
+</html>
